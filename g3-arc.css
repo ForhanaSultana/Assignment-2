@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: F3F3F3;
 
 }
 
@@ -114,6 +114,20 @@ header {
     font-size: 45px;
 }
 
+.feature-topics {
+    background-color: white;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.features-topic {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
 .features-description {
     color: #727272;
     margin-top: 24px;
@@ -123,5 +137,54 @@ header {
 ......Main second section....... */
 .main-second-section {
     width: 1440px;
+    margin-left: 240px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.second-sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 54px;
+}
+
+.second-section {
+    width: 586px;
+    height: 982px;
+}
+
+.architect-img {
+    position: relative;
+    width: 800px;
     height: 1059px;
+}
+
+.architect-img .exp-btn {
+    position: absolute;
+
+
+
+}
+
+.architect-img .primary-button {
+    padding: 46px 42px;
+    font-weight: 700;
+    font-size: 65px;
+    width: 342px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+#exp {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* main-second-section third part */
+.third-part .features-description {
+    width: 542px;
+    height: 52px;
 }
