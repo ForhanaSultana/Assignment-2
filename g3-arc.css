@@ -1,0 +1,127 @@
+/* header styles */
+* {
+    /* margin: 0 auto; */
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: white;
+
+}
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+}
+
+.nav-info {
+    margin-right: 240px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-info ul li {
+    margin-left: 20px;
+}
+
+.banner-header {
+    width: 860px;
+    height: 225px;
+    margin-top: 116px;
+    margin-left: 529px;
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700px;
+    font-size: 64px;
+}
+
+.banner-description {
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.primary-button {
+    background-color: #FF900E;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 32px;
+}
+
+
+.banner-img img {
+    width: 1440px;
+    height: 700px;
+    border-radius: 5px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+
+}
+
+/* ..................
+......Main first section....... */
+.main-first-section {
+    display: flex;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    margin-left: 301px;
+    margin-top: 85px;
+}
+
+.team-features {
+    margin-left: 73px;
+    width: 537px;
+    height: 304px;
+    margin-top: 287px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.list {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.features {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.features-description {
+    color: #727272;
+    margin-top: 24px;
+}
+
+/* ..................
+......Main second section....... */
+.main-second-section {
+    width: 1440px;
+    height: 1059px;
+}
