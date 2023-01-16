@@ -231,13 +231,15 @@ header {
 }
 
 .sponspors-img {
-    background-blend-mode: luminosity;
+   
+    
     margin-left: 240px;
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 
 }
+
 
 /* footer */
 .footer p {
@@ -253,5 +255,18 @@ header {
     margin-top: 130px;
     width: 1440px;
     height: 100px;
+
+}
+
+@media screen and (max-width:688px) {
+    .header, .nav-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        
+    }
 
 }
